@@ -11,3 +11,12 @@ This project demonstrates a complete embedded workflow:
 - Using **Dropbear SSH** to log into the virtual device and run the MQTT apps
 - **Publishing dummy temperature sensor data** from `mqtt_publisher`
 - **Displaying the sensor data** on the `mqtt_subscriber`
+
+
+| <img src="./docs/mqtt_publisher.PNG"> |
+|:--:| 
+| *MQTT Publisher* |
+
+| <img src="./docs/mqtt_subscriber.PNG"> |
+|:--:| 
+| *MQTT Subscriber* |
