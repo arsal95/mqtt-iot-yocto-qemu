@@ -1,4 +1,57 @@
-build/
 
-# VS Code settings (optional)
+---
+
+# 📄 **.gitignore (Copy-Paste Ready)**
+
+```gitignore
+# -------------------------
+# CMake build output
+# -------------------------
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Object and binary files
+*.o
+*.a
+*.so
+*.out
+*.elf
+*.map
+
+# -------------------------
+# Yocto build output
+# -------------------------
+tmp/
+sstate-cache/
+downloads/
+cache/
+bitbake-cookerdaemon.log
+
+# Deploy output
+deploy/
+*.rootfs.*
+*.qemuboot.conf
+*.manifest
+*.ext4
+*.img
+*.bin
+
+# -------------------------
+# Tarballs
+# -------------------------
+*.tar.gz
+*.bz2
+*.zip
+
+# keep ONLY required tarball
+!meta-iot/recipes-iot/mqtt-iot/files/mqtt-iot.tar.gz
+
+# -------------------------
+# IDE / Editor
+# -------------------------
 .vscode/
+.idea/
