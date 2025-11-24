@@ -2,7 +2,7 @@
 
 A lightweight MQTT Publisher/Subscriber application written in **C++**, packaged using **Yocto**, and executed inside a **QEMU ARM** virtual embedded system.
 
-This project demonstrates a complete embedded workflow:
+This project demonstrates an embedded and Yocto Linux workflow:
 
 - Building an MQTT-enabled C++ application using **CMake**
 - Creating a Yocto layer (`meta-iot`)
