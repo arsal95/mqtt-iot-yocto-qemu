@@ -8,6 +8,6 @@ This project demonstrates a complete embedded workflow:
 - Packaging the application as a Yocto recipe (`mqtt-iot_0.1.bb`)
 - Including an MQTT broker (**Mosquitto**) inside the Yocto image
 - Running everything on a virtual embedded board using **QEMU (qemuarm)**
-- Using **SSH** to log into the virtual device and run the MQTT apps
+- Using **Dropbear SSH** to log into the virtual device and run the MQTT apps
 - **Publishing dummy temperature sensor data** from `mqtt_publisher`
 - **Displaying the sensor data** on the `mqtt_subscriber`
