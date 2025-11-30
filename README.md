@@ -1,4 +1,4 @@
-# Yocto Project: C++ MQTT Publisher/Subscriber on QEMU ARM 
+# Yocto Project - C++ MQTT Publisher/Subscriber on QEMU ARM 
 
 A lightweight MQTT Publisher/Subscriber application written in **C++**, packaged using **Yocto**, and executed inside a **QEMU ARM** virtual embedded system.
 
